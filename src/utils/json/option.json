@@ -1,0 +1,35 @@
+{
+  "typeVehicule": [
+    { "value": "Citadine", "label": "Citadine" },
+    { "value": "Cabriolet", "label": "Cabriolet" },
+    { "value": "Berline", "label": "Berline" },
+    { "value": "SUV/4X4", "label": "SUV/4x4" }
+  ],
+  "energie": [
+    { "value": "Essence", "label": "Essence" },
+    { "value": "Electrique", "label": "Electrique" },
+    { "value": "Gaz", "label": "Gaz" },
+    { "value": "Diesel", "label": "Diesel" },
+    { "value": "Hybride", "label": "Hybride" }
+  ],
+  "kilometrage": [
+    { "value": "5-10K/km", "label": "5-10K/km" },
+    { "value": "10-15K/km", "label": "10-15K/km" },
+    { "value": "15-20K/km", "label": "15-20K/km" },
+    { "value": "20-25K/km", "label": "20-25K/km" },
+    { "value": "25-30K/km", "label": "25-30K/km" }
+  ],
+  "annee": [
+    { "value": "1960-1970", "label": "1960-1970" },
+    { "value": "1970-1980", "label": "1970-1980" },
+    { "value": "1990-2000", "label": "1990-2000" },
+    { "value": "2000-2010", "label": "2000-2010" },
+    { "value": "Après 2010", "label": "Après 2010" }
+  ],
+  "passagers": [
+    { "value": 1, "label": "1 passager" },
+    { "value": 2, "label": "2 passagers" },
+    { "value": 3, "label": "3 passagers" },
+    { "value": 4, "label": "4 passagers" }
+  ]
+}
