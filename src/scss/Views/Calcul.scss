@@ -1,5 +1,5 @@
 @import "../Widget/Button.scss";
-
+@import '../Base//Mixins.scss';
 .main {
   color: black;
   .simulateur-emprunt {
@@ -13,6 +13,7 @@
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    @include Anim();
 
     h1 {
       font-size: 24px;

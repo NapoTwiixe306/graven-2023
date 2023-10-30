@@ -59,7 +59,19 @@ button {
     margin: 0 auto;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation: rotateShadow 4s linear infinite; }
+@keyframes rotateShadow {
+  0% {
+    box-shadow: 0 0 5px red; }
+  25% {
+    box-shadow: 0 0 5px white; }
+  50% {
+    box-shadow: 0 0 5px blue; }
+  75% {
+    box-shadow: 0 0 5px white; }
+  100% {
+    box-shadow: 0 0 5px red; } }
     .main .simulateur-emprunt h1 {
       font-size: 24px;
       margin-bottom: 20px;

@@ -25,7 +25,7 @@ Pour exécuter ce projet localement sur votre machine, suivez ces étapes :
 1. **Clonez le Répertoire :** Utilisez la commande `git clone` pour cloner ce répertoire sur votre machine.
 
    ```sh
-   git clone <lien-vers-le-repertoire>
+   git clone https://github.com/NapoTwiixe306/graven-2023.git
    ```
 
 2. **Installer les dépendance :** utilisez la commande `npm install` pour tout installer

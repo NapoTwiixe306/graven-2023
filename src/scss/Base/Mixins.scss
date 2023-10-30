@@ -1,0 +1,22 @@
+@mixin Anim(){
+    @keyframes rotateShadow {
+        0% {
+          box-shadow: 0 0 5px red;
+        }
+        25% {
+          box-shadow: 0 0 5px white;
+        }
+        50% {
+          box-shadow: 0 0 5px blue;
+        }
+        75% {
+          box-shadow: 0 0 5px white;
+        }
+        100% {
+          box-shadow: 0 0 5px red;
+        }
+      }
+      animation: rotateShadow 4s linear infinite;
+
+}
+
