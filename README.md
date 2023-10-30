@@ -27,5 +27,6 @@ Pour exécuter ce projet localement sur votre machine, suivez ces étapes :
    ```sh
    git clone <lien-vers-le-repertoire>
    ```
+
 2. **Installer les dépendance :** utilisez la commande `npm install` pour tout installer
 3. **Exécuter le code :** Utilisez la commande `npm start` pour lancer le code
