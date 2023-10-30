@@ -1,41 +1,81 @@
-.simulateur-emprunt {
+/*Base*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+html {
+  background-color: #7e7b7b; }
+
+/*Views*/
+button {
+  border: none; }
+
+.button {
+  padding: 15px 30px;
+  position: relative;
+  background-color: transparent;
+  cursor: pointer;
+  border: 2px solid #2525254b;
+  overflow: hidden;
+  border-radius: 30px;
+  color: #333;
+  transition: all 0.5s ease-in-out; }
+  .button:hover {
+    box-shadow: 1px 1px 200px #0879e3;
+    color: #fff;
+    border: none; }
+
+.btn-txt {
+  z-index: 1;
+  font-weight: bold;
+  font-size: 15px; }
+
+.type1::after {
+  content: "";
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  max-width: 400px;
-  margin: 0 auto;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
-  .simulateur-emprunt h1 {
-    font-size: 24px;
-    margin-bottom: 20px;
-    text-align: center; }
-  .simulateur-emprunt .select-container {
-    margin-bottom: 15px; }
-  .simulateur-emprunt select {
-    cursor: pointer;
-    margin-bottom: 15px;
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 5px; }
-  .simulateur-emprunt button {
-    background-color: #4caf50;
-    color: white;
-    border: none;
+  left: 0;
+  top: 0;
+  transition: all 0.5s ease-in-out;
+  background-color: #203bd6;
+  border-radius: 30px;
+  visibility: hidden;
+  height: 10px;
+  width: 10px;
+  z-index: -1; }
+.type1:hover::after {
+  visibility: visible;
+  transform: scale(100) translateX(2px); }
+
+.main {
+  color: black; }
+  .main .simulateur-emprunt {
+    background: rgba(255, 255, 255, 0.806);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
     border-radius: 5px;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-size: 16px;
-    margin-top: 10px; }
-    .simulateur-emprunt button:hover {
-      background-color: #45a049; }
-  .simulateur-emprunt p {
-    font-size: 18px;
-    margin-top: 20px; }
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+    .main .simulateur-emprunt h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+      text-align: center; }
+    .main .simulateur-emprunt .select-container {
+      margin-bottom: 15px; }
+    .main .simulateur-emprunt select {
+      cursor: pointer;
+      margin-bottom: 15px;
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 5px; }
+    .main .simulateur-emprunt p {
+      font-size: 18px;
+      margin-top: 20px; }
 
 /*# sourceMappingURL=style.css.map */
